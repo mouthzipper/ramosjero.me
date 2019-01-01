@@ -27,13 +27,10 @@ function Bio() {
                 borderRadius: `100%`,
               }}
             />
-            <p>
-              Written by <strong>{author}</strong> who lives in the Philippines
-              and works remotely in various startups in the US.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on twitter.
-              </a>
+            <p style={{ maxWidth: 310 }}>
+              Personal blog by{' '}
+              <a href="https://twitter.com/mouthzipper">Jerome Ramos</a>.<br />
+              Coder | Trader | Digital Nomad
             </p>
           </div>
         )
