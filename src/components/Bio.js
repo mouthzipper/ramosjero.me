@@ -29,7 +29,7 @@ function Bio() {
             />
             <p style={{ maxWidth: 310 }}>
               Personal blog by{' '}
-              <a href="https://twitter.com/mouthzipper">Jerome Ramos</a>.<br />
+              <a href="https://twitter.com/mouthzipperio">Jerome Ramos</a>.<br />
               Coder | Trader | Digital Nomad
             </p>
           </div>
