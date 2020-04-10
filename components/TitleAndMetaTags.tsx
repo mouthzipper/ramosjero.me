@@ -22,7 +22,10 @@ export default function TitleAndMetaTags({
   return (
     <Head>
       <title>{title}</title>
-
+      <meta charSet="utf-8" />
+      <meta property="og:site_name" content="Jerome Ramos"/>
+      <meta name="title" content={title} />
+      <meta name="description" content={description} />
       <meta property="og:url" content={`${url}${path}`} />
       <meta property="og:image" content={image} />
       <meta property="og:title" content={title} />
