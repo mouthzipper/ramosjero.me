@@ -2,15 +2,17 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { Flex, Box} from 'rebass';
 import Footer from '../components/Footer';
+import { useAnalytics } from '../utils/analytics';
 
 
 
 function App({ Component, pageProps }: AppProps) {
+  useAnalytics();
   return (
     <>
         <Head>
           <title>Jerome Ramos</title>
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="/favicon.ico" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:300&display=swap"
             rel="stylesheet"
