@@ -16,7 +16,7 @@ export default function TitleAndMetaTags({
   description = 'JavaScript Engineer',
 }: TitleAndMetaTagsProps) {
   const router = useRouter();
-  const image = 'https://mzpr.io/social.jpg';
+  const image = 'https://mzpr.io/social.png';
   const path = pathname || router.pathname;
 
   return (
