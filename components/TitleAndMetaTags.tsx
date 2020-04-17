@@ -13,7 +13,7 @@ export default function TitleAndMetaTags({
   url = 'https://mzpr.io',
   pathname,
   title = 'Jerome Ramos',
-  description = 'JavaScript Engineer',
+  description = 'Jerome Ramos is a JavaScript Engineer currently hooked with React and Node. Interested in jamstack, serverless and user experience.',
 }: TitleAndMetaTagsProps) {
   const router = useRouter();
   const image = 'https://mzpr.io/social.png';
