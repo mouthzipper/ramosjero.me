@@ -1,8 +1,8 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { Flex, Box} from 'rebass';
-import Footer from '../components/Footer';
-import { useAnalytics } from '../utils/analytics';
+import Footer from 'components/Footer';
+import { useAnalytics } from 'utils/analytics';
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import NextDocument, { Head, Main, NextScript, DocumentContext } from 'next/document';
-import { renderSnippet, gtagUrl } from '../utils/analytics';
+import { renderSnippet, gtagUrl } from 'utils/analytics';
 
 export default class Document extends NextDocument {
   render() {

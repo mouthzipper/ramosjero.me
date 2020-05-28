@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Box, Text, Link, Flex } from 'rebass';
-import TitleAndMetaTags from '../components/TitleAndMetaTags';
+import TitleAndMetaTags from 'components/TitleAndMetaTags';
 const Home = () => (
   <>
     <a className="skip-link" href="#maincontent">Skip to main</a>
