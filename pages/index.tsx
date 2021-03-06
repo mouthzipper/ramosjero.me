@@ -9,7 +9,7 @@ const Home = () => (
       <Box p={[4, 5, 6]} bg="white" color="#4B4B4B" width={['80%', '70%', '70%']}>
         <Text mb={100} fontSize={18} mr={10} as="h1">JEROME<span className="super">RAMOS</span></Text>
         
-        <Text mb={50} fontSize={20}>I’m a JavaScript Engineer with more than 7 years of professional experience currently hooked with React and Node. Interested in jamstack, serverless and user experience.</Text>
+        <Text mb={50} fontSize={20}>I’m a JavaScript Engineer with over 8 years of professional experience currently hooked with React and Node. Interested in jamstack, serverless and user experience.</Text>
         <Text mb={50} fontSize={20}>Born in the Philippines and is working remotely. I’m an NPA(No Permanent Address) since 2018 hopping from country to country that accepts my passport 😅</Text>
         <Flex>
         <Text fontSize={20} as="p">You can find me on
