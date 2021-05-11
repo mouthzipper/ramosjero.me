@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "next": "^10.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
