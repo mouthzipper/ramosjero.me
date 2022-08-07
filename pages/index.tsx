@@ -20,6 +20,10 @@ const Home = () => {
       });
   }, []);
   const nextTravelDate = new Date(nomadData?.next?.date_start);
+  const nextTravelLabel = nextTravelDate
+    ? ` and will be at ${nomadData?.next.city},{" "}
+  ${nomadData?.next.country} on ${dateToYMD(nextTravelDate)}`
+    : "";
   return (
     <>
       <a className="skip-link" href="#maincontent">
@@ -45,8 +49,8 @@ const Home = () => {
           <Text mb={50} fontSize={24} color="#131315" lineHeight="30px">
             Born in the Philippines and is working remotely around the world. A
             digital Nomad since 2018 currently in {nomadData?.now?.city},{" "}
-            {nomadData?.now?.country} and will be at {nomadData?.next.city},{" "}
-            {nomadData?.next.country} on {dateToYMD(nextTravelDate)}.
+            {nomadData?.now?.country}
+            {nextTravelLabel}.
           </Text>
           <Flex>
             <Text fontSize={24} as="p" color="#131315">
