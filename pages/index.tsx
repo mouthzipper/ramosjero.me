@@ -20,7 +20,7 @@ const Home = () => {
       });
   }, []);
   const nextTravelDate = new Date(nomadData?.next?.date_start);
-  const nextTravelLabel = nextTravelDate
+  const nextTravelLabel = nomadData?.next.length
     ? ` and will be at ${nomadData?.next.city},{" "}
   ${nomadData?.next.country} on ${dateToYMD(nextTravelDate)}`
     : "";
