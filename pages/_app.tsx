@@ -6,6 +6,7 @@ import { useAnalytics } from "utils/analytics";
 
 function App({ Component, pageProps }: AppProps) {
   useAnalytics();
+  const year = new Date().getFullYear();
   return (
     <>
       <Head>
@@ -19,9 +20,9 @@ function App({ Component, pageProps }: AppProps) {
       </Head>
       <Flex flexDirection="column">
         <Box>
-          <Component {...pageProps} />
+          <Component {...pageProps} year={year} />
         </Box>
-        <Footer />
+        <Footer year={year} />
       </Flex>
       <style jsx global>{`
         html,

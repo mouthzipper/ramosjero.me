@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { Box, Text, Link, Flex } from "rebass";
 import TitleAndMetaTags from "components/TitleAndMetaTags";
-const Home = () => {
+const Home = ({ year }) => {
   const [nomadData, setNomadData] = useState(null);
 
   const dateToYMD = (date) => {
@@ -43,8 +43,8 @@ const Home = () => {
           </Text>
 
           <Text mb={50} fontSize={24} color="#131315" lineHeight="30px">
-            I’m a JavaScript|TypeScript Engineer with over 9 years of
-            professional experience currently hooked with React and Node.
+            I’m a JavaScript|TypeScript Engineer with over {year - 2013} years
+            of professional experience currently hooked with React and Node.
             Interested in jamstack, serverless and user experience.
           </Text>
           <Text mb={50} fontSize={24} color="#131315" lineHeight="30px">
