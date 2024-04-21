@@ -84,18 +84,7 @@ const Home = ({ year }) => {
                 rel="noopener"
               >
                 github
-              </Link>{" "}
-              or
-              <Link
-                href="https://www.linkedin.com/in/jeromeramos/"
-                ml={"5px"}
-                color="#595959"
-                target="_blank"
-                rel="noopener"
-              >
-                linkedin
               </Link>
-              .
             </Text>
           </Flex>
         </Box>

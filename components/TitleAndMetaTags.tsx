@@ -13,7 +13,7 @@ export default function TitleAndMetaTags({
   url = 'https://ramosjero.me',
   pathname,
   title = 'Jerome Ramos',
-  description = 'Jerome Ramos is a JavaScript Engineer currently hooked with React and Node. Interested in jamstack, serverless and user experience.',
+  description = 'Jerome Ramos is a JavaScript | Typescript Engineer currently hooked with React and Node | Bun. Interested in jamstack, serverless and user experience.',
 }: TitleAndMetaTagsProps) {
   const router = useRouter();
   const image = 'https://ramosjero.me/social.png';
