@@ -1,8 +1,7 @@
-import { Box, Text } from "rebass";
-export default function ({ year }) {
+export default function Footer({ year }: { year: number }) {
   return (
-    <Box p={[4, 5, 6]} color="#4B4B4B">
-      <Text fontSize={18}>© {year}</Text>
-    </Box>
+    <footer style={{ padding: "2rem", color: "#4B4B4B" }}>
+      <p style={{ fontSize: "18px" }}>© {year}</p>
+    </footer>
   );
 }
